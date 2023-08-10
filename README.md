@@ -1,2 +1,1 @@
-# learning-sagemaker
-Learning SageMaker
+# Learning SageMaker
