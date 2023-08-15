@@ -10,6 +10,7 @@ set -eoux pipefail
 
 (
   prettier --write README.md
+  grep -v "^#" ".env" | sed -E "s/(.+)=(.+)/\1=<YOUR_\1>/" > ".env.example"
 )
 
 (

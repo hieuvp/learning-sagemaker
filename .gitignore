@@ -1,0 +1,21 @@
+# JetBrains - Developer Tools for Professionals and Teams
+.idea/
+
+# Visual Studio Code - Code Editing - Redefined
+.vscode/
+
+# Operating System
+.DS_Store
+
+# Virtual Python Environment
+venv/
+
+# Compiled Python Bytecode Files
+__pycache__/
+*.pyc
+
+# Sensitive information, secrets, and configurations to be loaded into environment variables
+.env
+
+# Data downloaded from your Amazon S3 bucket
+bucket/
